@@ -1,7 +1,4 @@
 var calculator = require('../calculator');
-// var calculator = require('jasmine');
-// var { add } = require('../calculator');
-// var { multiply } = require('../calculator');
 
 describe("Simple calculator to add two numbers", function () {
     it("Should return 0", function () {
@@ -22,7 +19,7 @@ describe("Simple calculator to add two numbers", function () {
 
 describe ("Simple calculator to add multiple numbers", function () {
     it("should return 10", function () {
-        expect(calculator.sum(1,2,3,4)).toEqual(10);
+        expect(calculator.addMultiple(1,2,3,4)).toEqual(10);
     });
 
 });
@@ -36,6 +33,6 @@ describe ("Simple calculator to multiply two numbers", function () {
 
 describe ("Simple calculator to multiply many numbers", function() {
     it("should return 24", function() {
-        expect(calculator.product(1,2,3,4)).toEqual(24);
+        expect(calculator.multiplyMultiple(1,2,3,4)).toEqual(24);
     })
 })

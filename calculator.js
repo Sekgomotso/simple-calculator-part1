@@ -4,18 +4,18 @@ function add(a,b) {
 
 module.exports = {
     add,
-    sum,
+    addMultiple,
     multiply,
-    product
+    multiplyMultiple
 }
 
-function sum() {
-    var sum = 0;
+function addMultiple() {
+    var addMultiple = 0;
     
     for (i = 0; i < arguments.length; i++) {
-        sum += arguments[i];
+        addMultiple += arguments[i];
     }
-    return sum;
+    return addMultiple;
 }
 
 function multiply(a,b) {
@@ -23,12 +23,12 @@ function multiply(a,b) {
 }
 
 
-function product() {
-    var product = 1;
+function multiplyMultiple() {
+    var multiplyMultiple = 1;
 
     for (i = 1; i < arguments.length; i++) {
-        product *= arguments[i];
+        multiplyMultiple *= arguments[i];
     }
-    return product;
+    return multiplyMultiple;
 }
 
