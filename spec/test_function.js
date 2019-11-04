@@ -19,7 +19,7 @@ describe("Simple calculator to add two numbers", function () {
 
 describe ("Simple calculator to add multiple numbers", function () {
     it("should return 10", function () {
-        expect(calculator.addMultiple(1,2,3,4)).toEqual(10);
+        expect(calculator.add(1,2,3,4)).toEqual(10);
     });
 
 });
@@ -33,6 +33,6 @@ describe ("Simple calculator to multiply two numbers", function () {
 
 describe ("Simple calculator to multiply many numbers", function() {
     it("should return 24", function() {
-        expect(calculator.multiplyMultiple(1,2,3,4)).toEqual(24);
+        expect(calculator.multiply(1,2,3,4)).toEqual(24);
     })
 })
