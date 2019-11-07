@@ -1,7 +1,3 @@
-// function add(a,b) {
-//     return a + b;
-// }
-
 module.exports = {
     add,
     multiply
@@ -15,11 +11,6 @@ function add() {
     }
     return add;
 }
-
-// function multiply(a,b) {
-//     return a*b;
-// }
-
 
 function multiply() {
     var multiply = 1;
