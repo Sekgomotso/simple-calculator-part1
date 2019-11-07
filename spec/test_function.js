@@ -1,4 +1,4 @@
-var calculator = require('../calculator');
+var calculator = require('../src/calculator');
 
 describe("Simple calculator to add two numbers", function () {
     it("Should return 0", function () {
